@@ -2,9 +2,9 @@
 
 use std::collections::VecDeque;
 
-use backemd::database::SongDatabase;
+use backend::songdatabase::SongDatabase;
 
-pub mod backemd;
+pub mod backend;
 
 pub struct App<D, P>
 where
